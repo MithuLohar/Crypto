@@ -6,9 +6,9 @@ const RegisterModel = require("../model/user");
 const Jwt = require("jsonwebtoken");
 
 var url =
-  "mongodb+srv://mithulohar:7070596630@cluster0-tsdwe.mongodb.net/test?retryWrites=true&w=majority";
+  "mongodb+srv://<userId>:<password>@cluster0-tsdwe.mongodb.net/test?retryWrites=true&w=majority";
 const coinlayerdetailapi =
-  "http://api.coinlayer.com/list?access_key=281390a86d9c46a41859b98a868ef623";
+  "http://api.coinlayer.com/list?access_key="<your key>";
 
 moongoose.connect(
   url,
