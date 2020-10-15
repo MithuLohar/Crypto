@@ -4,4 +4,8 @@
 
 ### installing the dependencies
 
-![npm install](/CdEXP.png)
+![navigate](/CdEXP.png)
+
+![npm install](/install.png)
+
+![run server](/run_server.png)
